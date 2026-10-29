@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="SemesterOS">
+  <defs>
+    <linearGradient id="bgm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9a8bff"/>
+      <stop offset="0.55" stop-color="#7c6cff"/>
+      <stop offset="1" stop-color="#4c3acb"/>
+    </linearGradient>
+    <linearGradient id="badge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Full bleed background: no transparent corners, safe for circular/squircle masks. -->
+  <rect width="512" height="512" fill="url(#bgm)"/>
+  <circle cx="256" cy="256" r="150" fill="url(#badge)"/>
+
+  <text x="256" y="338" text-anchor="middle"
+        font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-size="240" font-weight="700" letter-spacing="-6" fill="#ffffff">S</text>
+
+  <circle cx="352" cy="352" r="20" fill="#34d399"/>
+</svg>
